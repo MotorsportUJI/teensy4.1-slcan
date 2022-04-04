@@ -25,6 +25,8 @@ then,
 
     $ candump can0
 
+or open SavvyCan and set up a new socketcan device 
+
 ## Cleanup
 
     $ sudo ifconfig can0 down  
