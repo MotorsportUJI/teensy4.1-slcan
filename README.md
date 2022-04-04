@@ -14,7 +14,7 @@ then:
     $ can-utils
 
 ## Test (with python-can)
-Using python (with python3-can installed):\
+Using python (with python3-can installed):
     
     $ python -m can.viewer -c /dev/ttyACM0@2000000 -i slcan
 
