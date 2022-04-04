@@ -6,14 +6,19 @@ Build using VScode and platformio
 # Usage
 Tested on linux only:
 
-Using python:\
-  $ python -m can.viewer -c /dev/ttyACM0@2000000 -i slcan
+## Requirements:
+    $ python3-can
+    $ can-utils
 
-## Setup
-Please replace ttyUSB with ttyACM in case of using Arduino Uno.
+## Test (with python-can)
+Using python (with python3-can installed):\
+    
+    $ python -m can.viewer -c /dev/ttyACM0@2000000 -i slcan
 
-    $ sudo slcan_attach -f -s6 -o /dev/ttyUSB0  
-    $ sudo slcand -S 1000000 ttyUSB0 can0  
+## Setup (with can-utils)
+
+    $ sudo slcan_attach -f -s6 -o /dev/ttyACM0  
+    $ sudo slcand -S 2000000 ttyACM0 can0  
     $ sudo ifconfig can0 up  
 
 then,
