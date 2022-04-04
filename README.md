@@ -6,7 +6,7 @@ Build using VScode and platformio
 Tested on linux only:
 
 Using python: 
-python -m can.viewer -c /dev/ttyACM0@2000000 -i slcan
+  $ python -m can.viewer -c /dev/ttyACM0@2000000 -i slcan
 
 Using cansocket (Compatible with CanSavvy)
 sudo slcan_attach -f -s6 -o /dev/ttyACM0\
