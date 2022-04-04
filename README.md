@@ -9,7 +9,7 @@ Using python:
 python -m can.viewer -c /dev/ttyACM0@2000000 -i slcan
 
 Using cansocket (Compatible with CanSavvy)
-sudo slcan_attach -f -s6 -o /dev/ttyACM0
+`sudo slcan_attach -f -s6 -o /dev/ttyACM0
 sudo slcand -S 2000000 ttyACM0 can0
 sudo ifconfig can0 up
-candump can0
+candump can0`
