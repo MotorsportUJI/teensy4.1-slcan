@@ -1,6 +1,8 @@
 # Teensy 4.1 slcan
 Turn your teensy4.1 into a slcan device, source code based on https://github.com/mintynet/teensy-slcan but using FlexCan_T4 library instead of FlexCAN.
 
+Note: You'll need a 3.3V logic CAN transceiver (like the mcp2562) to interface the teensy with the can bus 
+
 Build using VScode and platformio
 
 # Usage
