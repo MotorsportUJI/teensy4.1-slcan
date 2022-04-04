@@ -4,8 +4,11 @@ Turn your teensy4.1 into a slcan device, source code based on https://github.com
 Build using VScode and platformio
 
 # Usage
+
 Tested on linux only\
-Flash the program to the teensy using platformio (or your ide of choice) then,
+Flash the program to the teensy using platformio (or your ide of choice)\
+then:
+
 ## Requirements:
     $ python3-can
     $ can-utils
