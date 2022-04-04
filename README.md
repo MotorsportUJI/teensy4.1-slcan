@@ -6,8 +6,11 @@ Build using VScode and platformio
 # Usage
 
 Tested on linux only\
-Flash the program to the teensy using platformio (or your ide of choice)\
-then:
+
+## Building
+You need FlexCan_T4 library installed on platformio for building
+
+Build and Flash the program to the teensy using platformio (or your ide of choice)\
 
 ## Requirements:
     $ python3-can
